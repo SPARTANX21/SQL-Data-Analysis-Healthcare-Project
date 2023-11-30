@@ -1,6 +1,6 @@
 # SQL - Data Analysis - Healthcare Dataset 
 
-## This dataset is taken from Kaggle (https://www.kaggle.com/datasets/prasad22/healthcare-dataset) and Thanks to PRASAD PATIL for such data.
+## This dataset is taken from Kaggle (https://www.kaggle.com/datasets/prasad22/healthcare-dataset).
 
 ## Each column provides specific information about the patient, their admission, and the healthcare services provided, making this dataset suitable for various data analysis and modeling tasks in the healthcare domain. Here's a brief explanation of each column in the dataset -
 
