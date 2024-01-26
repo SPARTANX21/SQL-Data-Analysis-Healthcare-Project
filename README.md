@@ -1,4 +1,6 @@
 # SQL - Data Analysis - Healthcare Dataset 
+![SQL](https://img.shields.io/badge/Language-%20SQL-yellow/Workbench)
+![SQL](https://img.shields.io/badge/Workbench-%20MySQL-green)
 
 ## This dataset is taken from Kaggle (https://www.kaggle.com/datasets/prasad22/healthcare-dataset).
 
