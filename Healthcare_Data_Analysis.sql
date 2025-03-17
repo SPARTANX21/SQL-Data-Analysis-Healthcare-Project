@@ -162,4 +162,18 @@ CASE
         WHEN Test_Results =  'Abnormal' THEN 'Needs more attention and more tests'
         END AS 'Status', Hospital, Doctor
 FROM Healthcare;
-	-- Findings : This query provides a summary of patients status based on their test results for various medical conditions. It categorizes patients into distinct statuses: those requiring additional checks and unable to be discharged due to inconclusive results, individuals fit for discharge but needing strict adherence to prescribed medications for normal results, and those needing more attention and further tests for abnormal findings. It also displays associated details like the patient's name, hospital, and attending doctor, offering an overview of patient conditions, discharge possibilities, and necessary follow-up actions.
+	-- Findings : This query provides a summary of patients status based on their test results for various medical conditions. 
+	--It categorizes patients into distinct statuses: those requiring additional checks and unable to be discharged due to inconclusive results,
+	-- individuals fit for discharge but needing strict adherence to prescribed medications for normal results, and those needing more 
+	--attention and further tests for abnormal findings. It also displays associated details like the patient's name, hospital, 
+	--and attending doctor, offering an overview of patient conditions, discharge possibilities, and necessary follow-up actions.
+
+--21. Find the total patient of each blood group
+select Blood_Type, count(Blood_Type) as Total_patient 
+from healthcare_dataset
+group by Blood_Type
+
+--22. Total amount by the insurance provider 
+select Insurance_Provider, round(sum(Billing_Amount),2) as Total_amount
+from healthcare_dataset
+group by Insurance_Provider
